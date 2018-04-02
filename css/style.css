@@ -9,18 +9,23 @@ span{
 }
 ul{
 	list-style-type: none;
+	font-size: 20px;
 }
 img{
-	width: 200px;
-	height: 150px;
-	margin: 10px;
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 15px 0;
 }
 img:hover {
 	opacity: 0.5;
 }
+p, span{
+	font-size: 18px;
+}
 #litery{
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 40px;
 }
 .input-group{
 	background-color: white;
@@ -34,4 +39,32 @@ img:hover {
 	width: 50%;
 	height: 50%;
 	opacity: 1;
+}
+
+@media(max-width: 1199px) and (min-width: 768px) {
+
+	img{
+		width: 200px;
+		height: 150px;
+		margin: 0 auto;
+		padding: 15px 0;
+	}
+	
+}
+
+@media(max-width: 767px) {
+
+	img{
+		width: 300px;
+		height: 200px;
+		margin: 0 auto;
+		padding: 15px 0;
+		display: block;
+	}
+
+	.certyfikat:hover img {
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+	}
 }
