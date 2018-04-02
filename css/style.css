@@ -23,6 +23,11 @@ img:hover {
 p, span{
 	font-size: 18px;
 }
+footer > p {
+	font-size: 15px;
+	text-align: center;
+	color: grey;
+}
 #litery{
 	font-weight: 700;
 	font-size: 40px;
